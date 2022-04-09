@@ -1,0 +1,129 @@
+
+
+
+#main_container{
+    height:830px;
+    width:1000px;
+    margin:auto;
+    
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#header_div{
+    width:100%;
+    height:100px;
+    display: flex;
+    border-bottom: 0.5px solid silver;
+}
+
+#header_div > div:nth-child(2){
+    margin-left:3px;
+    margin-top: 37px;
+    color:blueviolet;
+    font-size: 11px;
+    letter-spacing: -0.3px;
+}
+
+#header_div > div:nth-child(1){
+    margin-left:20px;
+    margin-top: 0px;
+    font-size: 20px;
+    color:silver;
+    letter-spacing: -0.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px rgb(6, 1, 62);
+}
+
+#btnSave{
+    height:20px;
+    width:50px;
+    margin-top: 45px;
+    background-color: transparent;
+    border: 1px solid blue;
+    font-size:15px;
+    margin-left:10px;
+}
+#btnOld{
+    height:20px;
+    width:100px;
+    margin-top: 45px;
+    font-weight: 500;
+    font-size:15px;
+    background-color: transparent;
+    border: 1px solid blue;
+    margin-left:10px;
+}
+
+#newBtn{
+    height:20px;
+    width:50px;
+    margin-top: 45px;
+    background-color: transparent;
+    border: 1px solid blue;
+    font-size:15px;
+    margin-left:150px;
+}
+
+#btn_del{
+    height:20px;
+    width:60px;
+    margin-top: 45px;
+    font-weight: 500;
+    font-size:15px;
+    background-color: rgb(166, 2, 2);
+    color: white;
+    border: 1px solid blue;
+    margin-left:10px;
+}
+
+
+#input{
+    height:657px;
+    width:952px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    column-rule: 2px;
+    row-gap: 2px;
+    cursor: auto;
+    padding: 20px;
+}
+
+#side_div{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    overflow-y: scroll;
+    background-color: aliceblue;
+    height:657px;
+    padding: 20px;
+    width:952px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -700px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#div1{
+    overflow: hidden;
+    padding:3px;
+    height:200px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}   
+    
+#alert_div{
+    background-color: cadetblue;
+    height: 20px;
+    width:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: auto;
+    visibility: hidden;
+    color:rgb(112, 1, 23);
+}
